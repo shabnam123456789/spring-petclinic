@@ -31,6 +31,7 @@ import org.springframework.context.annotation.ImportRuntimeHints;
 public class PetClinicApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("server.port","8086");
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
